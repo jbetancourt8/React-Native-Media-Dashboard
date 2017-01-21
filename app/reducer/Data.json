@@ -1,0 +1,55 @@
+{
+  "animal" : [
+    {
+      "title" : "Dogs",
+      "photos" : [
+        {
+          "uri" : "https://upload.wikimedia.org/wikipedia/commons/8/8a/Too-cute-doggone-it-video-playlist.jpg"
+        },
+        {
+          "uri" : "https://static.pexels.com/photos/97082/weimaraner-puppy-dog-snout-97082.jpeg"
+        },
+        {
+          "uri" : "https://upload.wikimedia.org/wikipedia/commons/1/17/WI_Police_Dog.jpg"
+        },
+        {
+          "uri" : "https://static.pexels.com/photos/616/animal-dog-pet-bulldog.jpg"
+        },
+        {
+          "uri" : "https://www.publicdomainpictures.net/pictures/170000/velka/dog-1463219370zAM.jpg"
+        },
+        {
+          "uri" : "https://c1.staticflickr.com/5/4116/4940173372_b8f884f447_b.jpg"
+        }
+      ]
+    },
+    {
+      "title" : "Cats",
+      "photos" : [
+        {
+          "uri" : "https://upload.wikimedia.org/wikipedia/commons/b/b6/Felis_catus-cat_on_snow.jpg"
+        },
+        {
+          "uri" : "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_March_2010-1.jpg"
+        },
+        {
+          "uri" : "https://upload.wikimedia.org/wikipedia/commons/f/fa/Female_siamese_cat.jpg"
+        },
+        {
+          "uri" : "https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg"
+        }
+      ]
+    },
+    {
+      "title" : "Birds",
+      "photos" : [
+        {
+          "uri" : "https://static.pexels.com/photos/9291/nature-bird-flying-red.jpg"
+        },
+        {
+          "uri" : "https://upload.wikimedia.org/wikipedia/commons/9/9b/Eastern_Bluebird-27527-2.jpg"
+        }
+      ]
+    }
+  ]
+}
