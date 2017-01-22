@@ -1,15 +1,23 @@
 import React, { Component } from 'react';
 import {
   View,
-  Text
+  Text,
+  TouchableOpacity
 } from 'react-native';
+import { Actions } from 'react-native-router-flux';
 
 class DisplayTitle extends Component {
+  titlePressed(){
+    console.log(this.props);
+    const { title, photos } = this.props;
+    Actions.selectedAlbum({ title, photos });
+  }
+
   render() {
     return (
-      <View style={styles.containerStyle}>
+      <TouchableOpacity onPress={this.titlePressed.bind(this)} style={styles.containerStyle}>
         <Text style={styles.headerTitleStyle}>{this.props.title}</Text>
-      </View>
+      </TouchableOpacity>
     );
   }
 }

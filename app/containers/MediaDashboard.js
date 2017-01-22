@@ -11,7 +11,6 @@ class MediaDashboard extends Component {
     return (
       <View style={{ flex: 1 }}>
         <Header
-          button={'Back'}
           title={'Media'}
         />
 
@@ -26,7 +25,8 @@ class MediaDashboard extends Component {
 
 const styles = {
   mediaListContainer: {
-    flex: 1
+    flex: 1,
+    paddingTop: 10
   }
 };
 

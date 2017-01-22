@@ -11,7 +11,11 @@ class Header extends Component {
     return(
       <View style={styles.headerStyle}>
 
-        <View style={styles.leftButtonStyle} />
+        <View style={styles.leftButtonStyle}>
+          <TouchableOpacity onPress={this.props.onPress}>
+            <Text>{this.props.button}</Text>
+          </TouchableOpacity>
+        </View>
 
         <View style={styles.titleStyle}>
           <Text style={styles.textStyle}>{this.props.title}</Text>

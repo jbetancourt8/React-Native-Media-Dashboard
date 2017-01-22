@@ -19,7 +19,7 @@ class ConnectData extends Component {
     const { title, photos } = rowData;
     return (
       <View>
-        <DisplayTitle title={title} />
+        <DisplayTitle title={title} photos={photos}/>
         <DisplayMedia photos={photos} />
       </View>
     )

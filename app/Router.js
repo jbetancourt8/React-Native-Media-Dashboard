@@ -5,6 +5,7 @@ import {
   Actions
 } from 'react-native-router-flux';
 import MediaDashboard from './containers/MediaDashboard';
+import SelectedAlbum from './containers/SelectedAlbum';
 
 class RouterComponent extends Component {
   render() {
@@ -17,6 +18,11 @@ class RouterComponent extends Component {
             key="mediadashboard"
             component={MediaDashboard}
             initial
+            hideNavBar
+          />
+          <Scene
+            key="selectedAlbum"
+            component={SelectedAlbum}
             hideNavBar
           />
 
