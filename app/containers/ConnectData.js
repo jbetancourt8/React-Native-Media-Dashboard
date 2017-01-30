@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
   View,
-  ListView
+  ListView,
 } from 'react-native';
 import { connect } from 'react-redux';
 import DisplayTitle from './DisplayTitle';
@@ -19,10 +19,10 @@ class ConnectData extends Component {
     const { title, photos } = rowData;
     return (
       <View>
-        <DisplayTitle title={title} photos={photos}/>
+        <DisplayTitle title={title} photos={photos} />
         <DisplayMedia photos={photos} />
       </View>
-    )
+    );
   }
   render() {
     return (
@@ -36,7 +36,7 @@ class ConnectData extends Component {
 
 const mapStateToProps = state => {
   return {
-    media: state.media.animal
+    media: state.media.animal,
   };
 };
 

@@ -4,7 +4,7 @@ import {
   Image,
   Dimensions,
   Text,
-  ListView
+  ListView,
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import Header from '../components/Header';
@@ -27,7 +27,7 @@ class SelectedAlbum extends Component {
 
     return (
       <View style={styles.rowStyle}>
-        <Image style={styles.imageSize} source={{ uri: uri }} />
+        <Image style={styles.imageSize} source={{ uri }} />
       </View>
     );
   }
@@ -67,7 +67,7 @@ const styles = {
   },
   imageSize: {
     width: imageSize - DEFAULT_ITEM_MARGIN,
-    height: imageSize - DEFAULT_ITEM_MARGIN
+    height: imageSize - DEFAULT_ITEM_MARGIN,
   }
 };
 

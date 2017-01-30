@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "eslint": "eslint",
     "test": "jest"
   },
   "dependencies": {
@@ -11,13 +12,50 @@
     "react-native": "0.40.0",
     "react-native-router-flux": "^3.37.0",
     "react-redux": "^5.0.2",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "remotedev-server": "^0.3.0-beta-3"
   },
   "devDependencies": {
+    "babel-eslint": "^7.1.1",
     "babel-jest": "18.0.0",
     "babel-preset-react-native": "1.9.1",
+    "chai": "^3.5.0",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-plugin-react-native": "^2.2.1",
     "jest": "18.1.0",
-    "react-test-renderer": "~15.4.0-rc.4"
+    "mocha": "^3.2.0",
+    "react-test-renderer": "^15.4.2",
+    "remote-redux-devtools": "^0.5.7",
+    "remote-redux-devtools-on-debugger": "^0.7.0",
+  },
+  "keywords": [
+    "android",
+    "ios",
+    "react",
+    "native",
+    "react-native",
+    "native-base",
+    "native-modules",
+    "react-component",
+    "media",
+    "album",
+    "dashboard",
+    "rnpm",
+    "es6",
+    "redux",
+    "react-native-code-push",
+    "react-native boilerplate",
+    "react-native with redux",
+    "react-native with redux boilerplate",
+    "react-native with native-base"
+  ],
+  "upstreamRepo": "https://github.com/jbetancourt8/React-Native-Media-Dashboard.git",
+  "jest": {
+    "preset": "jest-react-native"
   },
   "jest": {
     "preset": "react-native"

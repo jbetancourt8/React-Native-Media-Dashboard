@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import {
-  View,
   Text,
-  TouchableOpacity
+  TouchableOpacity,
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
 class DisplayTitle extends Component {
   titlePressed(){
-    console.log(this.props);
     const { title, photos } = this.props;
     Actions.selectedAlbum({ title, photos });
   }
@@ -24,12 +22,12 @@ class DisplayTitle extends Component {
 
 const styles = {
   containerStyle: {
-    flex: 1
+    flex: 1,
   },
   headerTitleStyle: {
     paddingLeft: 10,
-    fontSize: 30
-  }
-}
+    fontSize: 30,
+  },
+};
 
 export default DisplayTitle;
