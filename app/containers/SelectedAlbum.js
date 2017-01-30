@@ -33,7 +33,6 @@ class SelectedAlbum extends Component {
   }
 
   render() {
-    console.log(this.props.photos);
     return (
       <View style={{ flex: 1 }}>
 
