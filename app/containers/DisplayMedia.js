@@ -3,7 +3,7 @@ import {
   View,
   Image,
   Dimensions,
-  ListView
+  ListView,
 } from 'react-native';
 
 const { width } = Dimensions.get('window');
