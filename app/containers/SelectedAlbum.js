@@ -14,6 +14,21 @@ const DEFAULT_ITEM_MARGIN = 2;
 const DEFAULT_ITEMS_PER_ROW = 2;
 const imageSize = Math.floor(width / DEFAULT_ITEMS_PER_ROW);
 
+const styles = {
+  containerStyle: {
+    flexDirection: 'row',
+    flexWrap: 'wrap'
+  },
+  rowStyle: {
+    padding: 1,
+    alignSelf: 'flex-start'
+  },
+  imageSize: {
+    width: imageSize - DEFAULT_ITEM_MARGIN,
+    height: imageSize - DEFAULT_ITEM_MARGIN,
+  }
+};
+
 class SelectedAlbum extends Component {
   componentWillMount() {
     const ds = new ListView.DataSource({
@@ -54,20 +69,5 @@ class SelectedAlbum extends Component {
     );
   }
 }
-
-const styles = {
-  containerStyle: {
-    flexDirection: 'row',
-    flexWrap: 'wrap'
-  },
-  rowStyle: {
-    padding: 1,
-    alignSelf: 'flex-start'
-  },
-  imageSize: {
-    width: imageSize - DEFAULT_ITEM_MARGIN,
-    height: imageSize - DEFAULT_ITEM_MARGIN,
-  }
-};
 
 export default SelectedAlbum;

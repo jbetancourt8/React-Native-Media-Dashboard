@@ -7,6 +7,12 @@ import {
 import MediaDashboard from './containers/MediaDashboard';
 import SelectedAlbum from './containers/SelectedAlbum';
 
+const styles = {
+  sceneStyle: {
+    flex: 1
+  }
+};
+
 class RouterComponent extends Component {
   render() {
     return (
@@ -32,11 +38,5 @@ class RouterComponent extends Component {
     );
   }
 }
-
-const styles = {
-  sceneStyle: {
-    flex: 1
-  }
-};
 
 export default RouterComponent;
